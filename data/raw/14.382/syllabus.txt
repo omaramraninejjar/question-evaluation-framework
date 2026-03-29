@@ -1,0 +1,14 @@
+Course Overview
+The course will cover several key models as well as identification and estimation methods used in modern econometrics. We shall begin with exploring some leading models of econometrics, then seeing structures, then providing methods of identification, estimation, and inference. You will learn the modern ways of setting up problems and doing better estimation and inference than the current empirical practice. You will learn generalized method of moments, the method of M-estimators, as well more modern versions of these methods dealing with important issues such as weak identification or biases arising in high dimensions. You will also learn the bootstrap. At the end of the course, we shall also explore very high dimensional formulations, or “big data”, where some penalization via lasso or ridge methods is necessary to say anything useful. You will get a lot of hands-on experience with using the methods on real data sets.
+
+Outline
+Review of regression and partialling out. Simultaneous inference
+Linear Structural Equations Models (SEM), Wright’s IV Principle, linear GMM
+Nonlinear SEMs, Hansen’s Euler Equations, nonlinear GMM
+Bootstrap and simulation. Inference using BS
+Binary choice models, distributional regression, and M-estimators
+Linear and non-linear panel models, basic principles
+GMM and M estimators in high dimensions. Bias correction
+Program evaluation and Treatment Effect Models (TEMs)
+Modern principles for estimation of high-dimensional models
+Post-selection and post-regularization inference in SEMs and TEMs

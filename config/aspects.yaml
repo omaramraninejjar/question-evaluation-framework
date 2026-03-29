@@ -1,0 +1,76 @@
+# Evaluation Framework — Taxonomy Configuration
+#
+# This file describes the Aspect -> Dimension hierarchy.
+# It contains NO weights and NO aggregation policy — those are
+# caller responsibilities passed to Scorer at analysis time.
+#
+# `critical: true` is a semantic flag indicating that a low score
+# on this dimension should be treated with special caution (e.g.
+# min-gate strategy) — it does not enforce any behaviour automatically.
+
+aspects:
+
+  - name: pedagogical
+    description: >
+      Educational quality of an item with respect to intended learning goals
+      and the thinking it is designed to elicit.
+    dimensions:
+      - name: curriculum_alignment
+        description: Extent to which the item matches intended learning objectives.
+      - name: cognitive_demand
+        description: Extent to which the item requires higher-level reasoning to answer.
+      - name: concept_coverage
+        description: Extent to which an item set represents the intended knowledge domain.
+      - name: response_burden
+        description: Extent to which item design imposes response effort or friction.
+
+  - name: psychometric
+    description: >
+      Measurement quality of an item as part of an assessment instrument.
+    dimensions:
+      - name: difficulty
+        description: Extent to which the item is challenging for the target population.
+      - name: discrimination
+        description: Extent to which the item differentiates between proficiency levels.
+      - name: guessing_careless
+        description: Extent to which correct responses occur without the intended competence.
+      - name: distractor_functioning
+        description: Extent to which incorrect options attract non-mastery responses.
+      - name: item_fit
+        description: Extent to which observed item behavior matches the assumed measurement model.
+      - name: dimensionality
+        description: Extent to which an item set reflects one versus multiple constructs.
+      - name: reliability
+        description: Extent to which an item set yields consistent and precise scores.
+
+  - name: linguistic_structural
+    description: >
+      Quality of item wording and format with respect to clarity and interpretability.
+    dimensions:
+      - name: readability
+        description: Extent to which the item text is easy to read and understand.
+      - name: linguistic_complexity
+        description: Extent to which vocabulary and syntax increase processing difficulty.
+      - name: ambiguity
+        description: Extent to which the item permits multiple plausible interpretations.
+      - name: well_formedness
+        description: Extent to which the item follows standard item-writing form and avoids structural flaws.
+      - name: diversity
+        description: Extent to which an item set avoids near-duplicates and repetition.
+
+  - name: fairness_ethics
+    description: >
+      Equity and risk properties of items with respect to learners and contexts.
+    dimensions:
+      - name: group_bias
+        description: Extent to which item outcomes differ across demographic groups beyond the intended construct.
+      - name: measurement_invariance
+        description: Extent to which measurement meaning is equivalent across groups.
+      - name: content_sensitivity
+        description: Extent to which item content is intrusive, culturally sensitive, or emotionally charged.
+      - name: harmful_content_risk
+        description: Extent to which item content is offensive, toxic, discriminatory, or stereotype-eliciting.
+        critical: true
+      - name: privacy_risk
+        description: Extent to which the item contains or solicits personal data that could enable identification.
+        critical: true

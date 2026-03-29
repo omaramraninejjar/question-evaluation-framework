@@ -1,0 +1,14 @@
+Explain and apply basic methods of discrete mathematics in Computer Science
+Reason mathematically about basic data types and structures (numbers, sets, graphs, trees) used in computer algorithms and systems
+Distinguish rigorous definitions and conclusions from merely plausible ones
+Synthesize elementary proofs, especially proofs by induction
+Model and analyze computational processes using analytic and combinatorial methods
+Apply principles of discrete probability to calculate probabilities and expectations of simple random processes
+Use logical notation to define and reason about fundamental mathematical concepts such as sets, relations, functions, and integers
+Evaluate elementary mathematical arguments and identify fallacious reasoning
+Prove elementary properties of modular arithmetic and explain their applications in Computer Science (e.g. cryptography and hashing algorithms)
+Apply graph theory models of data structures and state machines to solve problems of connectivity and constraint satisfaction
+Apply the method of invariants and well-founded ordering to prove correctness and termination of processes and state machines
+Derive closed-form and asymptotic expressions from series and recurrences for growth rates of processes
+Calculate numbers of possible outcomes of elementary combinatorial processes such as permutations and combinations
+Calculate probabilities and discrete distributions for simple combinatorial processes; calculate expectations

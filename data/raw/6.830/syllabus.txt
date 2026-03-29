@@ -1,0 +1,2 @@
+Overview
+This course is designed to introduce graduate students to the foundations of database systems, focusing on basics such as the relational algebra and data model, query optimization, query processing, and transactions. This is not a course on database design or SQL programming (though we will discuss these issues briefly). It is designed for students who have taken 6.033 (or equivalent); no prior database experience is assumed, though students who have taken an undergraduate course in databases are encouraged to attend.

@@ -1,0 +1,8 @@
+Explain drug-receptor interactions using quantitative models of binding affinity and efficacy
+Apply pharmacokinetic principles (absorption, distribution, metabolism, excretion) to predict drug concentration-time profiles
+Derive and apply pharmacodynamic models relating drug concentration to clinical effect
+Explain the mechanisms of action of major drug classes across therapeutic areas
+Analyze the molecular basis of drug selectivity, tolerance, and resistance
+Evaluate drug-drug interactions and their clinical implications
+Apply the principles of rational drug design and structure-activity relationships
+Interpret clinical pharmacology data including dose-response curves and therapeutic indices

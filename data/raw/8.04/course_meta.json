@@ -1,0 +1,20 @@
+{
+  "course_id": "8.04",
+  "title": "Quantum Physics I",
+  "subject": "Quantum Physics",
+  "field": "physics",
+  "level": "undergraduate",
+  "institution": "MIT",
+  "source": "MIT OpenCourseWare",
+  "learning_objectives": [
+    "Explain the experimental evidence for wave-particle duality and the failure of classical mechanics",
+    "Apply the de Broglie relation, uncertainty principle, and wave packet descriptions of matter",
+    "Solve the time-independent and time-dependent Schrödinger equation for simple potentials",
+    "Calculate expectation values, probabilities, and uncertainties for quantum states",
+    "Solve the quantum harmonic oscillator using both differential equation and operator methods",
+    "Apply boundary conditions to solve the particle in a box and step/barrier potential problems",
+    "Solve the hydrogen atom and classify atomic states using quantum numbers n, l, m",
+    "Describe electron spin and the Pauli exclusion principle and their consequences",
+    "Apply perturbation theory to calculate energy corrections for simple systems"
+  ]
+}

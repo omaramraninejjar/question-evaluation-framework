@@ -1,0 +1,30 @@
+Course Description
+This is the first semester of a two-semester graduate-level subject on quantum theory, stressing principles. Quantum theory explains the nature and behavior of matter and energy on the atomic and subatomic level. Topics include Fundamental Concepts, Quantum Dynamics, Composite Systems, Symmetries in Quantum Mechanics, and Approximation Methods.
+
+Topics Covered
+Fundamental concepts
+Kets, bras, and operators
+Measurements, observables, and uncertainty relations
+Change of basis
+Position, momentum
+Quantum dynamics
+Schrödinger and Heisenberg pictures
+Schrödinger equation and elementary solutions
+Path integral formulation
+Coupling to electromagnetic fields, Aharanov-Bohm effect
+Composite systems
+Tensor product states; quantum entanglement
+Density matrices
+Quantum information
+Symmetries in quantum mechanics
+Continuous symmetries and conservation laws
+Angular momentum
+Angular momentum algebra, SO(3) vs SU(2)
+Irreducible representations of SU(2) and SO(3)
+Addition of angular momentum
+Discrete symmetries: Parity and time reversal
+Approximation methods
+Perturbation theory
+Adiabatic approximation, Berry phase
+Semiclassical approximation
+Variational methods

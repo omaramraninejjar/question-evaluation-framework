@@ -1,0 +1,50 @@
+# PyTorch CPU-only builds (avoids pulling the large CUDA wheel on Linux).
+# On macOS the standard PyPI wheel is already CPU-only, but this ensures
+# consistent behaviour across platforms.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Core
+pyyaml>=6.0
+
+# Dataset pipeline
+pdfplumber>=0.10     # PDF text extraction (data/pipeline/extract.py)
+
+# NLP metrics
+nltk>=3.8
+rouge-score>=0.1.2
+sacrebleu>=2.0        # chrF / chrF++
+scikit-learn>=1.0     # TF-IDF cosine similarity
+rank-bm25>=0.2        # BM25 retrieval relevance
+torch>=2.1
+transformers>=4.0     # required by BARTScore; also pulled in transitively by bert-score
+bert-score>=0.3.13
+unbabel-comet>=2.0    # COMET — model (~1.9 GB) downloaded on first use
+torchvision           # required by torchmetrics (unbabel-comet dependency)
+sentence-transformers>=2.2  # Sentence-BERT + NLI cross-encoder
+
+# BLEURT (checkpoint ~1.7 GB downloaded on first use, cached in ~/.cache/huggingface)
+# The `bleurt` package has no PyPI release — install from source:
+evaluate>=0.4
+tensorflow
+tf-keras           # backwards-compatible Keras 2 API (required by transformers when TF >= 2.16 ships Keras 3)
+git+https://github.com/google-research/bleurt.git
+
+# Testing
+pytest>=8.0
+pytest-cov>=5.0
+
+# Optional — LLM-backed metrics (uncomment when needed)
+# anthropic>=0.25
+# openai>=1.0
+
+# Readability formula metrics
+textstat>=0.7
+
+# Linguistic Complexity metrics
+wordfreq>=2.5         # Zipf word frequency (ZipfWordFrequencyMetric)
+spacy>=3.0            # Dependency parse (ParseTreeDepthMetric, DependencyDistanceMetric)
+# After installing spacy, run: python -m spacy download en_core_web_sm
+pydantic>=1.10.13,<2  # spacy 3.7.x + Python 3.9 requires >=1.10.13 to avoid TypeError on import
+
+# Well-Formedness (LM perplexity uses transformers + torch already listed above)
+# gpt2 model (~500 MB) is downloaded from HuggingFace on first use

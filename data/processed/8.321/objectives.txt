@@ -1,0 +1,9 @@
+Formulate quantum mechanics using Dirac notation, Hilbert spaces, and abstract state vectors
+Represent quantum states and operators in different bases and derive transformation rules
+Derive and apply the Heisenberg and Schrödinger pictures of time evolution
+Analyze angular momentum using raising and lowering operators and Clebsch-Gordan coefficients
+Apply time-independent perturbation theory to degenerate and non-degenerate systems
+Apply time-dependent perturbation theory including Fermi's golden rule and selection rules
+Describe identical particles using symmetric and antisymmetric wavefunctions and second quantization
+Compute scattering amplitudes and cross-sections using Born approximation and partial wave methods
+Apply the WKB approximation and variational methods to solve quantum mechanical problems

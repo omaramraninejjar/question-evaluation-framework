@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Raw course PDFs — not committed; download from MIT OCW using course_meta.json
+data/raw/**/*.pdf
+
+# Model and data caches
+data/.cache/
+
+# Accidental pip install artifacts
+=*

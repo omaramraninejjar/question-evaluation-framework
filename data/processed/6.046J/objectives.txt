@@ -1,0 +1,9 @@
+Analyze the asymptotic time and space complexity of algorithms using O, Ω, and Θ notation
+Design and prove the correctness of divide-and-conquer algorithms using recurrence relations
+Apply dynamic programming to optimize overlapping subproblems and prove optimal substructure
+Design greedy algorithms and prove their correctness using exchange arguments
+Analyze advanced graph algorithms including shortest paths, maximum flow, and matching
+Apply amortized analysis to analyze data structure operations over sequences
+Understand NP-completeness, reductions, and the implications of P vs NP
+Design and analyze randomized algorithms including hashing and probabilistic methods
+Apply approximation algorithms to NP-hard optimization problems with provable guarantees

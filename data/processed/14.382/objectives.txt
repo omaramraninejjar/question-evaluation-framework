@@ -1,0 +1,9 @@
+Derive and apply the properties of ordinary least squares (OLS) estimators under classical and non-classical assumptions
+Construct and interpret hypothesis tests and confidence intervals for regression parameters
+Apply instrumental variables and two-stage least squares to address endogeneity
+Analyze panel data using fixed effects, random effects, and first-difference estimators
+Apply maximum likelihood estimation and understand its large-sample properties
+Use generalized method of moments (GMM) for estimation of structural models
+Implement nonparametric and semiparametric regression methods
+Evaluate causal inference strategies including difference-in-differences and regression discontinuity
+Apply time series models including ARIMA, VAR, and cointegration methods

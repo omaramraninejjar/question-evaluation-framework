@@ -1,0 +1,19 @@
+{
+  "course_id": "18.100A",
+  "title": "Real Analysis",
+  "subject": "Real Analysis",
+  "field": "mathematics",
+  "level": "graduate",
+  "institution": "MIT",
+  "source": "MIT OpenCourseWare",
+  "learning_objectives": [
+    "Construct rigorous proofs using the axiomatic properties of the real number system",
+    "Analyze the convergence and divergence of sequences and series using formal limit definitions",
+    "Apply the epsilon-delta definition of limits and continuity to prove properties of real functions",
+    "Prove the intermediate value theorem, extreme value theorem, and uniform continuity",
+    "Define and compute the derivative using the limit definition and prove the mean value theorem",
+    "Construct Riemann integrals and prove the fundamental theorem of calculus rigorously",
+    "Determine the convergence of series of functions including power series and uniform convergence",
+    "Distinguish between pointwise and uniform convergence and apply them to interchange limits"
+  ]
+}

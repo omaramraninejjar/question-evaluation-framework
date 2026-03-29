@@ -1,0 +1,8 @@
+Apply conservation of mass and momentum to model fluid transport in physiological systems
+Analyze cardiovascular mechanics including cardiac output, vascular resistance, and pressure-flow relationships
+Model renal physiology including glomerular filtration, tubular reabsorption, and concentration mechanisms
+Apply principles of diffusion, convection, and facilitated transport to membrane physiology
+Derive and solve the equations governing respiratory mechanics and gas exchange
+Use compartmental modeling and linear systems theory to analyze organ transport phenomena
+Interpret physiological data quantitatively and connect models to experimental measurements
+Evaluate the impact of disease and clinical interventions on organ transport function
